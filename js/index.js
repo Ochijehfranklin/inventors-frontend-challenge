@@ -95,7 +95,7 @@ function showMovies(movies){
     card.innerHTML = ''
 
     movies.forEach((movie) =>{
-        const  {title, poster_path, release_date} = movie
+        const  {title, poster_path, release_date, backdrop_path} = movie
 
         const moviel = document.createElement ('a')
         moviel.classList.add('card')
