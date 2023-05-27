@@ -16,13 +16,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <!--Bootstrap css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <!--custom js-->
-
-    <!--
-        
-    -->
-    
-    <!--type="module"-->
+ 
     
 </head>
 <body>  
@@ -38,24 +32,31 @@
         
                 <ul class="nav-menu" id="nav-menu">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#" class="nav-link">Home</a>
                     </li>
                     <li>
-                        <a href="#">Discover</a>
+                        <a href="#" class="nav-link">Discover</a>
                     </li>
                     <li>
-                        <a href="#">Watchlist</a>
+                        <a href="#" class="nav-link">Watchlist</a>
                     </li>
                     <li>
-                        <a href="#">Live Tv</a>
+                        <a href="#" class="nav-link">Live Tv</a>
                     </li>
                 </ul>
+                 <!--From here hamburger-->
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                <!-- to here-->
             </div>
     
             <div class="search-box-user" search-box>
                 <div class="search-wrapper"  search-wrapper>
                     <input type="text" name="search" autocomplete="off" id="search-field" search-field aria-label="search movies" placeholder="Search..." >
-                    <!--Download search image here-->
+          
                     <i class="bi bi-search"></i>
                     <!--<img src="images/Addition/assets/images/search.png" width="24" height="20" alt="search-icon" class="leading-icon">-->
                 </div>
@@ -141,35 +142,51 @@
         </div>
     </section>
 
-    <section id="section2">
-        <h2>
-            Binge-worthy-series
-        </h2>
-        <div class="float">
-            <a href="#" class="view-all">
-                <p class="view">view all</p>
-            </a>
-            <p class="stroke">|</p>
-            <i class="bi bi-arrow-left-circle"></i>
-            <i class="bi bi-arrow-right-circle"></i>
-        </div>
-        <div class="trend-cards">
-            <a href="#" class="trend-card">
-                <img src="images/flash-image.jpg" width="130" height="195" alt="image-poster" class="poster">
-                <div class="rest_card">
-                    <img src="images/flash1.jpg" alt="flash-image">
-                    <div class="cont">
-                        <h4>The Flash</h4>
-                        <div class="sub">
-                            <p>Action, 2021</p>
-                            <h3><span>IMDB</span><i class="bi bi-star-fill"></i>8.9</h3>
-                            <i id="join" class="bi bi-plus-circle"></i>
-                        </div>
+   
+<section id="section2">
+    <h2>
+    Binge-worthy-series
+    </h2>
+    <div class="float">
+        <a href="#" class="view-all">
+            <p class="view">view all</p>
+        </a>
+        <p class="stroke">|</p>
+        <i class="bi bi-arrow-left-circle"></i>
+        <i class="bi bi-arrow-right-circle"></i>
+    </div>
+    
+    <div class="bigCard">
+        <div class="fullPlate">
+            <!--
+           <a href="#" class="littleCard">
+                <img src="images/scream image.jpg" alt="moneyHeist" class="postCard">
+             <div class="detailz">
+                <h4 class="title">SCREAM <span class="year"><p>2023</p></span></h4>
+                <p class="storyLine"> In the next installment, the survivors of the Ghostface killings leave
+                    Woodsboro behind and start a fresh chapter in New-York city.
+                </p>
+                <div class="action">
+                    <div  class="playnow">
+                        <i class="bi bi-play-fill"></i>play</p>
+                    </div>
+                    <div class="played">
+                        <i class="bi bi-check2-all"></i>
                     </div>
                 </div>
+             </div>
             </a>
+            -->
         </div>
-    </section>
+
+    </div>
+</section>
+
+<div class="dropNext">
+    <i class="bi bi-chevron-down"></i>
+</div>
+
+</div>
 
 
 <script src="js/index.js"></script>
