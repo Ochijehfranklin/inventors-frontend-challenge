@@ -90,7 +90,7 @@ window.location.reload ()
 }
 })
 
-
+/*
 function showMovies(movies){
     card.innerHTML = ''
 
@@ -117,6 +117,6 @@ function showMovies(movies){
         trend.appendChild(moviel);
 })
  
-}
+}*/
 
 
